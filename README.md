@@ -1,6 +1,6 @@
 # Full Cycle Go App
 
-Este repositório contém o código-fonte e o `Dockerfile` para uma aplicação Go simples que imprime "Full Cycle Rocks!!" quando executada. A aplicação é construída e empacotada em uma imagem Docker extremamente leve, utilizando a imagem base `scratch` para minimizar o tamanho final da imagem.
+Este repositório contém o código-fonte e o `Dockerfile` para uma aplicação Go simples que imprime "Full Cycle Rocks!!" quando executada. A aplicação é construída e empacotada em uma imagem Docker extremamente leve, utilizando o conceito de Multi-stage builds e a imagem base `scratch` para minimizar o tamanho final da imagem.
 
 ## Pré-requisitos
 
