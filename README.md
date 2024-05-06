@@ -43,6 +43,18 @@ Você pode acessar a imagem `celcito/fullcycle` no Docker Hub através do seguin
 
 [celcito/fullcycle](https://hub.docker.com/r/celcito/fullcycle)
 
+
+
+
+## Rodando a Imagem a partir da imagem hospedada no  Docker Hub
+
+Você pode rodar a imagem  com o comando.
+
+docker run celcito/fullcycle
+
+
+Isso fará com que a imagem seja baixarda e executada iniciando  um contêiner a partir da imagem `celcito/fullcycle` e imprimirá "Full Cycle Rocks!!" no terminal.
+
 ## Conclusão
 
 Este projeto demonstra como criar uma aplicação Go simples, empacotá-la em uma imagem Docker extremamente leve usando a imagem base `scratch`, e publicá-la no Docker Hub. Isso é útil para cenários onde o tamanho da imagem é uma preocupação, como em ambientes de produção em nuvem ou em dispositivos IoT com recursos de memória limitados.
